@@ -5,7 +5,9 @@
   "scripts": {
     "lint": "eslint src",
     "dist": "bili",
-    "test": "jest"
+	"dev": "jest --no-cache --watchAll",
+    "test": "jest --no-cache",
+    "prepublish": "npm run dist && npm t"
   },
   "bili": {
     "format": "all"
