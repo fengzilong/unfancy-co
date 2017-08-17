@@ -1,0 +1,26 @@
+{
+  "name": "unfancy-co",
+  "version": "0.0.0",
+  "main": "dist/unfancy-co.js",
+  "scripts": {
+    "lint": "eslint src",
+    "dist": "bili",
+    "test": "jest"
+  },
+  "bili": {
+    "format": "all"
+  },
+  "eslintConfig": {
+    "extends": "mo/esnext"
+  },
+  "author": "fengzilong1992@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^20.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "bili": "^0.17.4",
+    "eslint": "^3.8.1",
+    "eslint-config-mo": "latest",
+    "jest": "^20.0.4"
+  }
+}
